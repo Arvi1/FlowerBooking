@@ -24,9 +24,10 @@ public class DiscountTest {
 		System.out.println(driver.getTitle());
 		Thread.sleep(2000);
 		
-		driver.findElement(By.xpath("//*[@id='top-links']/div/ul/li[2]/a/div")).click();
+		/*driver.findElement(By.xpath("//*[@id='top-links']/div/ul/li[2]/a/div")).click();
 		System.out.println(driver.getTitle());
-		Thread.sleep(2000);
+		Thread.sleep(2000);*/
+		
 		driver.quit();
 		
 	}
